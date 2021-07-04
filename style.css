@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Bitter', serif;
+    font-family: 'Varela', sans-serif;
+}
+
+.container {
+    display: flex;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+}
+
+.container-2 {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+span {
+    color: orange;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.link-button:hover {
+    background-image: linear-gradient(green, #4fa);
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+}
