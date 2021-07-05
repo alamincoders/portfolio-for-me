@@ -11,7 +11,7 @@ span {
     color: lightcoral;
 }
 
-section {
+.flexible-content {
     display: flex;
     margin-bottom: 200px;
 }
@@ -45,7 +45,52 @@ section {
     transition: .3s;
 }
 
-.top-banner {
+
+/* .top-banner {
     background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat; 
+
+I don't use for the this banner in the page.. but later try again this photo uses.
+}*/
+
+.Dream-big {
+    background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
+}
+
+.experience-area {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.experience-item {
+    width: 40%;
+    text-align: justify;
+    padding-left: 20px;
+    box-shadow: 10px 10px 60px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+#front-end-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(#030a49, #0f8bf7);
+    border-image-slice: 1;
+}
+
+#full-stack-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(#490343, #16cf05);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
