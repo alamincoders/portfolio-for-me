@@ -21,6 +21,7 @@ h1 {
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -35,7 +36,7 @@ h1 {
 }
 
 span {
-    color: orange;
+    color: #c8715d;
 }
 
 .link-button {
@@ -50,4 +51,23 @@ span {
     transition: .5s;
     cursor: pointer;
     color: white;
+}
+
+.experience-area {
+    display: flex;
+}
+
+.experience-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 40px;
+    text-align: justify;
+    box-shadow: 5px 5px 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
 }
