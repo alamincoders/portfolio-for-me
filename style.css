@@ -1,73 +1,50 @@
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0px;
-    font-family: 'Alegreya', serif;
-    font-family: 'Bitter', serif;
-    font-family: 'Varela', sans-serif;
-}
-
-.container {
-    display: flex;
-    background-image: url(./images/top-banner.png);
-    background-repeat: no-repeat;
-    margin-bottom: 300px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
-.container-2 {
+span {
+    color: lightcoral;
+}
+
+section {
     display: flex;
-    background-image: url(./images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-bottom: 100px;
 }
 
 .half-width {
     width: 50%;
-    margin-left: 5%;
     text-align: justify;
-    margin-right: 40px;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.line-fomate {
+    padding: 60px;
 }
 
 .half-width img {
     width: 70%;
 }
 
-span {
-    color: #c8715d;
-}
-
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 25px;
-    font-size: 20px;
-}
-
-.link-button:hover {
-    background-image: linear-gradient(green, #4fa);
-    transition: .5s;
-    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 5px;
     color: white;
 }
 
-.experience-area {
-    display: flex;
+.link-button:hover {
+    background-image: linear-gradient(#000428, #004e92);
+    cursor: pointer;
+    transition: .3s;
 }
 
-.experience-item {
-    width: 50%;
-    margin-left: 5%;
-    margin-right: 40px;
-    text-align: justify;
-    box-shadow: 5px 5px 20px;
-    margin-bottom: 40px;
-    padding: 20px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 100px;
+.top-banner {
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
 }
